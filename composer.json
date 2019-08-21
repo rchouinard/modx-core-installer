@@ -1,0 +1,27 @@
+{
+    "name": "rchouinard/modx-core-installer",
+    "type": "composer-plugin",
+    "description": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryan Chouinard",
+            "email": "rchouinard@gmail.com"
+        }
+    ],
+    "require": {
+        "composer-plugin-api": "^1.1"
+    },
+    "require-dev": {
+        "composer/composer": "^1.8",
+        "phpunit/phpunit": "^7.5"
+    },
+    "extra": {
+        "class": "RChouinard\\Composer\\ModxCorePlugin"
+    },
+    "autoload": {
+        "psr-4": {
+            "RChouinard\\Composer\\": "src/"
+        }
+    }
+}
